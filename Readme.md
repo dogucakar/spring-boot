@@ -1,7 +1,7 @@
 # HOW TO RUN APPLICATION
 
 # Dockerized way
-* First run mvn clean package to create jar file under /target. This creates target/digitalwallet-1.0-SNAPSHOT.jar
+* First run mvn clean package to create jar file under /target. This creates target/core-1.0.jar
 * There is a dockerfile under project root.<br> 
   Run docker build -t digitalwallet-app in this directory. Be sure your docker engine is running.
 * Run this command docker run -p 8080:8080 digitalwallet-app <br>
