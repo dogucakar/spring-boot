@@ -22,3 +22,4 @@ Two users created with below roles.Under src/main/resources data.sql script auto
 
 # HOW TO TEST 
 Add Authorization Header Basic Auth username: {username} password: test. You can use POSTMAN tool.
+H2 In memory database console is available at: http://localhost:8080/h2-console username:sa password:sa. Here you can see tables in H2 GUI
